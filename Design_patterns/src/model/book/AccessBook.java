@@ -11,7 +11,7 @@ package model.book;
 
 	        //update student
 	        Books book = bookDao.getAllBooks().get(1);
-	        book.setBookName("Algorithms");
+	        book.setBookName("Data Structure");
 	        bookDao.saveBook(book);
 	    }
 	}
